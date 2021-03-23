@@ -586,6 +586,7 @@ hr.simu{
 	}
 }
 
+
 @media (min-width: 1024px) and (max-width: 1230px){
 	#sobre .esquerdo{
 		margin-bottom: 100px;
@@ -595,15 +596,19 @@ hr.simu{
 	}
 
 	#simulação{
-		margin: 60px 80px;
+		margin: 80px 60px;
 	}
 
 	#simulação ul > li{
-		margin-left: 4%;
+		margin-left: 3%;
 	}
 
 	#simulação ul > li:nth-child(1){
-		margin-left: -5%;
+		margin-left: 3%;
+	}
+
+	#simulação ul > li:nth-child(3){
+		margin-bottom: 3%;
 	}
 
 	#produtos ul > li{
@@ -640,7 +645,7 @@ hr.simu{
 		bottom: 0px;
 		background: url(img/logo-branco.png) no-repeat;
 		background-size: 100%;
-		height: 65px;
+		height: 70px;
 		width: 8%;
 	}
 
@@ -651,17 +656,19 @@ hr.simu{
 	}
 
 	#simulação{
-		margin: 60px 100px;
+		margin: 60px auto;
+		justify-content: center;
 	}
 
 	#simulação ul > li{
 		float: none;
-		width: 50%;
-		margin: 5% 25%;
+		width: 280px;
+		margin-left: initial;
+		margin: 30px auto;
 	}
 
 	#simulação ul > li:nth-child(1){
-		margin-left: 25%;
+		margin-left: inherit;
 	}
 
 	hr.simu{
@@ -717,4 +724,135 @@ hr.simu{
 		top: 0px;
 	}
 
+}
+
+@media (min-width:320px) and (max-width: 425px){
+	nav a.logo{
+		top: 8%;
+		left: 3%;
+		bottom: 0px;
+		background: url(img/logo-branco.png) no-repeat;
+		background-size: 100%;
+		height: 70px;
+		width: 17%;
+	}
+
+	#sobre{
+		margin: 0px auto;
+		margin-left: 10px;
+	}
+
+	#sobre .esquerdo, #sobre .direito{
+		display: block;
+		width: 100%;
+		margin-top: 50px;
+	}
+
+	#sobre .esquerdo{
+		width: 90%;
+		margin: 50px auto 50px auto;
+	}
+
+	#sobre .esquerdo h2{
+		font-size: 2.3em;
+	}
+
+	#simulação{
+		margin: 30px auto;
+		justify-content: center;
+	}
+	
+	#simulação ul > li{
+		float: none;
+		width: 280px;
+		margin: 25px auto;
+	}
+
+	#simulação ul > li:nth-child(1) {
+		margin-left: inherit;
+	}
+
+	hr.simu{
+		margin: 0px;
+	}
+
+	#produtos{
+		margin: 30px auto;
+	}
+
+	#produtos ul > li{
+		float: none;
+		width: 90%;
+	}
+
+	#mapa{
+		margin: 60px auto 700px auto;
+	}
+
+	#mapa .iframe{
+		position: relative;
+		left: 0%;
+		width: 100%;
+	}
+
+	#mapa .cont-mapa {
+		width: 100%;
+		position: static;
+	}
+
+	#contato{
+		margin: 90% auto 5% auto;
+	}
+
+	#contato .forms1, #contato .forms2{
+		display: block;
+		width: 100%;
+	}		
+	
+	.forms input[type="text"],[type="email"],[type="tel"],[type="onde"]{
+		margin-top: 50px;
+		width: 80%;
+	}
+
+	.forms textarea{
+		width: 80%;
+		margin: 50px auto;
+	}
+
+	#rodapé a#foto-roda{
+		background: url(img/logo-branco.png) no-repeat center;
+		background-size: 45%;
+		height: 180px;
+		left: 0%;
+		top: 0px;
+		text-indent: -9000px;
+		position: relative;
+	}
+
+	.dentro{
+		display: block; /*Display flexivel*/
+		justify-content: center; /*Espaço entre as divs*/
+	}
+
+	#rodapé a#foto-roda{
+		display: block;
+		margin: 0px auto;
+	}
+
+	#rodapé  .endereço{
+		width: 100%;
+		position: inherit;
+		margin: 0px auto;
+	}
+
+	#rodapé .icon-roda{
+		position: inherit; 
+		margin: 0px auto;
+	}
+
+	#rodapé .text-final{
+		margin: 0px auto;
+		font-size: 0.9em;
+		width: 80%;
+	}
 }
